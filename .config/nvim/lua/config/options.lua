@@ -20,10 +20,13 @@ vim.o.undofile = true      -- Save undo history
 vim.o.updatetime = 250     -- Decrease update time
 vim.o.timeoutlen = 300     -- Decrease mapped sequence wait time
 
+vim.o.spelllang = "en_gb"
+
 --- MARKDOWN TEXT WRAPPING ---
 vim.api.nvim_create_autocmd("FileType", {
   pattern = "markdown",
   callback = function()
     vim.opt_local.textwidth = 120
+    vim.opt.spell = true
   end,
 })
