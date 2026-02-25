@@ -3,7 +3,7 @@ require("config.keymaps")
 require("config.options")
 
 --- SET COLORSCHEME ---
-vim.cmd("colorscheme tokyonight-night")
+vim.cmd("colorscheme gruvbox")
 
 --- LSP CONFIG ---
 vim.lsp.enable({ "lua_ls", "rust_analyzer", "basedpyright", "gopls", "clangd" })

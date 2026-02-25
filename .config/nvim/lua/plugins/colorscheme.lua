@@ -1,13 +1,15 @@
 return {
   {
-    "folke/tokyonight.nvim",
-    lazy = false,
+    "ellisonleao/gruvbox.nvim",
     priority = 1000,
-    opts = { transparent = true },
+    config = true,
+    opts = {
+      transparent_mode = true,
+    }
   },
   {
     'nvim-lualine/lualine.nvim',
-    options = { theme = "tomorrow_night" },
+    options = { theme = "gruvbox" },
     config = function()
       require("lualine").setup()
     end
