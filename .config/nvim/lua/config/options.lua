@@ -8,13 +8,14 @@ vim.o.shiftwidth = 2
 vim.o.expandtab = true
 vim.o.smartindent = true
 vim.o.autoindent = true
+vim.o.winborder = "rounded"
 
 vim.o.ignorecase = true -- search settings
 vim.o.smartcase = true
 vim.o.hlsearch = false
 vim.o.incsearch = true
 vim.o.termguicolors = true -- visual settings
-vim.o.cursorline = true    -- highlight cursor
+vim.o.cursorline = false    -- highlight cursor
 vim.o.breakindent = true   -- Enable break indent
 vim.o.undofile = true      -- Save undo history
 vim.o.updatetime = 250     -- Decrease update time
@@ -26,7 +27,7 @@ vim.o.spelllang = "en_gb"
 vim.api.nvim_create_autocmd("FileType", {
   pattern = "markdown",
   callback = function()
-    vim.opt_local.textwidth = 120
+--    vim.opt_local.textwidth = 120
     vim.opt.spell = true
   end,
 })
