@@ -1,3 +1,0 @@
-cmd - return : ghostty -e tmux
-cmd - b : open /Applications/Zen.app
-cmd - e : emacs
