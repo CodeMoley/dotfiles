@@ -1,4 +1,5 @@
 return {
+  -- colorschemes
   {
     "ellisonleao/gruvbox.nvim",
     priority = 1000,
@@ -8,10 +9,14 @@ return {
     }
   },
   {
+    "blazkowolf/gruber-darker.nvim"
+  },
+  -- lualine
+  {
     'nvim-lualine/lualine.nvim',
     options = { theme = "gruvbox" },
     config = function()
       require("lualine").setup()
     end
-  }
+  },
 }
