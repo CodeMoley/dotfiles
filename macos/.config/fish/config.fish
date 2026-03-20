@@ -14,13 +14,12 @@ alias vim="nvim"
 alias vi="nvim"
 alias v="nvim"
 
-# colour changing script
-#alias colour="~/vault/scripts/colour.sh"
-
 ### PATH VARIABLES ###
 fish_add_path ~/go/bin
-fish_add_path ~/vault/binaries/ols
-fish_add_path ~/vault/scripts
+# fish_add_path ~/vault/bin
+for dir in ~/vault/bin/*/
+  fish_add_path $dir
+end
 
 # launch starship
 starship init fish | source

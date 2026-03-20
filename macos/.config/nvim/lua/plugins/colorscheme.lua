@@ -11,6 +11,10 @@ return {
   {
     "blazkowolf/gruber-darker.nvim"
   },
+  {
+    "rose-pine/neovim",
+    name = "rose-pine",
+  },
   -- lualine
   {
     'nvim-lualine/lualine.nvim',
