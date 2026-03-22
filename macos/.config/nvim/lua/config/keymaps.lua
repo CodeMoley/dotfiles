@@ -25,14 +25,6 @@ vim.keymap.set("n", "<leader>ff", "<CMD>Pick files<CR>")
 vim.keymap.set("n", "<leader>lf", vim.lsp.buf.format)
 vim.keymap.set("n", "<leader>lr", "<CMD>LspRestart<CR>")
 
--- trouble.nvim keymaps
-vim.keymap.set("n", "<leader>xx", "<CMD>Trouble diagnostics toggle<CR>")
-vim.keymap.set("n", "<leader>xX", "<CMD>Trouble diagnostics toggle filter.buf=0<CR>")
-vim.keymap.set("n", "<leader>cs", "<CMD>Trouble symbols toggle focus=false<CR>")
-vim.keymap.set("n", "<leader>cl", "<CMD>Trouble lsp toggle focus=false win.position=right<CR>")
-vim.keymap.set("n", "<leader>xL", "<CMD>Trouble loclist toggle<CR>")
-vim.keymap.set("n", "<leader>xQ", "<CMD>Trouble qflist toggle<CR>")
-
 -- centre screen when jumping
 vim.keymap.set("n", "H", "Hzz")
 vim.keymap.set("n", "L", "Lzz")

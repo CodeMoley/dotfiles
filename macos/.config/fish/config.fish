@@ -16,8 +16,7 @@ alias v="nvim"
 
 ### PATH VARIABLES ###
 fish_add_path ~/go/bin
-# fish_add_path ~/vault/bin
-for dir in ~/vault/bin/*/
+for dir in ~/bin/*/
   fish_add_path $dir
 end
 

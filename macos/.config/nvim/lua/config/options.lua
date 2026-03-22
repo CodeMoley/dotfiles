@@ -31,3 +31,7 @@ vim.api.nvim_create_autocmd("FileType", {
     vim.opt.spell = true
   end,
 })
+
+vim.diagnostic.config({
+  virtual_lines = { current_line = true }
+})

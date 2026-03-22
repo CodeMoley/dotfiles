@@ -8,13 +8,6 @@ return {
       transparent_mode = true,
     }
   },
-  {
-    "blazkowolf/gruber-darker.nvim"
-  },
-  {
-    "rose-pine/neovim",
-    name = "rose-pine",
-  },
   -- lualine
   {
     'nvim-lualine/lualine.nvim',
