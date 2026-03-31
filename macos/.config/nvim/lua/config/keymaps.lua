@@ -23,7 +23,6 @@ vim.keymap.set("n", "<leader>ff", "<CMD>Pick files<CR>")
 
 -- lsp handling
 vim.keymap.set("n", "<leader>lf", vim.lsp.buf.format)
-vim.keymap.set("n", "<leader>lr", "<CMD>LspRestart<CR>")
 
 -- centre screen when jumping
 vim.keymap.set("n", "H", "Hzz")
