@@ -27,7 +27,7 @@ vim.o.spelllang = "en_gb"
 vim.api.nvim_create_autocmd("FileType", {
   pattern = "markdown",
   callback = function()
---    vim.opt_local.textwidth = 120
+    vim.opt_local.textwidth = 120
     vim.opt.spell = true
   end,
 })
