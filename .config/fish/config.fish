@@ -17,6 +17,12 @@ alias v="nvim"
 # eza
 alias ls="eza -l"
 
+# power profiles
+alias ppp="powerprofilesctl set performance"
+alias ppb="powerprofilesctl set balanced"
+alias ppe="powerprofilesctl set power-saver"
+alias pp="powerprofilesctl get"
+
 ### PATH VARIABLES ###
 fish_add_path ~/go/bin
 for dir in ~/bin/*/
